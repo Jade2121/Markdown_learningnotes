@@ -6,6 +6,8 @@ https://xianbai.me/learn-md/index.html
 
 https://bookdown.org/xiao/RAnalysisBook/
 
+https://www.markdownguide.org/basic-syntax/
+
 
 ## 1.Rmd输出pdf报错
     
@@ -40,7 +42,26 @@ https://github.com/rstudio/rmarkdown/issues/1450
 ## 2. Mathematics in markdown
 https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
 https://blog.csdn.net/Katherine_hsr/article/details/79179622
-note: if there is more than one symbol, use $$ ranther than $.
+Note: if there is more than one symbol, use $$ ranther than $.
+
+## 3. When want to add code, just keep in format
+
+### 报错
+cd 本地库目录
+git add .
+git commit -m "版本日志"
+git push -u origin master
+
+Just use ``` to indicate it is a code.
+
+```
+cd 本地库目录
+git add .
+git commit -m "版本日志"
+git push -u origin master
+```
+
+
 
          
 
