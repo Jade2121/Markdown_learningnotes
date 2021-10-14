@@ -23,8 +23,7 @@ Try other LaTeX engines instead (e.g., xelatex) if you are using pdflatex. See h
 In grepl("==> Fatal error occurred", x[i], fixed = TRUE) :
   输入的字符串1不适用于此语言环境
 停止执行
-
-    
+  
 ### 解决：
 在文件头部pdf输出上配置下列文件
 
@@ -34,7 +33,7 @@ In grepl("==> Fatal error occurred", x[i], fixed = TRUE) :
          latex_engine: xelatex
 ```
 
-#### Reference:
+### Reference:
 https://stackoverflow.com/questions/32794157/package-inputenc-error-unicode-char-u8-in-rstudio  
 https://github.com/rstudio/rmarkdown/issues/1450
 
@@ -43,6 +42,7 @@ https://github.com/rstudio/rmarkdown/issues/1450
 https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
 https://blog.csdn.net/Katherine_hsr/article/details/79179622
 Note: if there is more than one symbol, use $$ ranther than $.
+
 
 ## 3. When want to add code, just keep in format
 
@@ -66,6 +66,6 @@ git push -u origin master
          
 
 
-#### Other Helpful:
+## Other Helpful:
 https://blog.csdn.net/adan_journal_of_data/article/details/78900476
 
