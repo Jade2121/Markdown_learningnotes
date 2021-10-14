@@ -1,4 +1,4 @@
-## handbook for look up:
+## Handbook for look up:
 
 https://bookdown.org/yihui/rmarkdown/
 
@@ -37,7 +37,7 @@ https://stackoverflow.com/questions/32794157/package-inputenc-error-unicode-char
 https://github.com/rstudio/rmarkdown/issues/1450
 
 
-## 2. mathematics in markdown
+## 2. Mathematics in markdown
 https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
 https://blog.csdn.net/Katherine_hsr/article/details/79179622
 note: if there is more than one symbol, use $$ ranther than $.
